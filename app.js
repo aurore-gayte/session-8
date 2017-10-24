@@ -1,44 +1,44 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Aurore",
+    lastName: "Gayte",
+    description: "Etudiante à l'école de journalisme de Sciences Po Paris, passion pétanque",
+    photo: "https://static.pexels.com/photos/7720/night-animal-dog-pet.jpg",
+    twitter: "A_gayte",
+    github: "aurore-gayte",
+    mail: "aurore.gayte@gmail.com",
     experiences: [{
-      dateBegin: "2014",
-      dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }, {
-      dateBegin: "Été 2013",
+      dateBegin: "Août 2017",
       dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      name: "France Info",
+      title: "Envoyé spéciale pétanque en Chine",
+      description: "Reportage sur la pétanque en Chine"
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
-      description: false
+      dateBegin: "Mai 2017",
+      dateEnd: "Juillet 2017",
+      name: "Têtu",
+      title: "Stagiare",
+      description: "Rédaction d'article et d'enquêtes"
+    }, {
+      dateBegin: "Janvier 2016",
+      dateEnd: "Mai 2016",
+      name: "CNN / The Paris Bureau",
+      title: "Stagiaire desk",
+      description: "Rédaction d'article, aide à la réalisation de reportages"
     }],
     formations: [{
+      dateBegin: "2016",
+      dateEnd: "2018",
+      name: "Master Journalisme",
+      university: "Sciences Po Paris"
+    }, {
       dateBegin: "2012",
       dateEnd: "2014",
-      name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
-    }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      name: "Bachelor Sciences Politiques, mention relations Euro-asie",
+      university: "Sciences Po Paris, campus du Havre"
     }],
-    languages: ["Anglais"],
+    languages: ["Anglais", "Chinois", "Espagnol"],
     skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
   },
   computed: {
